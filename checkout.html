@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Bootstrap E-commerce Templates</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+		<!-- bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">		
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+		
+		<!-- global styles -->
+		<link href="themes/css/flexslider.css" rel="stylesheet"/>
+		<link href="themes/css/main.css" rel="stylesheet"/>
+
+		<!-- scripts -->
+		<script src="themes/js/jquery-1.7.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>				
+		<script src="themes/js/superfish.js"></script>	
+		<script src="themes/js/jquery.scrolltotop.js"></script>
+		<!--[if lt IE 9]>			
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    <body>		
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+					<form method="POST" class="search_form">
+						<input type="text" class="input-block-level search-query" Placeholder="eg. T-sirt">
+					</form>
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="#">Minha Conta</a></li>
+							<li><a href="cart.html">Seu Carrinho</a></li>
+							<li><a href="checkout.html">Sair</a></li>					
+							<li><a href="register.html">Login</a></li>					
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">				
+					<a href="index.html" class="logo pull-left"><img src="themes/images/channels4_profile.png" class="site_logo" alt=""></a>
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="./products.html">Guitarra</a>					
+								<ul>
+									<li><a href="./products.html">Strato</a></li>									
+									<li><a href="./products.html">Telecaster</a></li>
+									<li><a href="./products.html">Modelos Diversos</a></li>									
+								</ul>
+							</li>															
+							<li><a href="./products.html">Contrabaixo</a></li>			
+							<li><a href="./products.html">Serviços</a>
+								<ul>									
+									<li><a href="./products.html">Troca de Traste</a></li>
+									<li><a href="./products.html">Troca de Captadores</a></li>
+									<li><a href="./products.html">Regulagem de Guitarra</a></li>
+									<li><a href="./products.html">Pinturas</a></li>
+									<li><a href="./products.html">Polimentos</a></li>
+									<li><a href="./products.html">Blindagem</a></li>
+									<li><a href="./products.html">Manutenção Ciricuito</a></li>
+									<li><a href="./products.html">Customização de Instrumentos</a></li>
+								</ul>
+							</li>							
+							<li><a href="./products.html"></a></li>
+							<li><a href="./products.html"></a></li>
+							<li><a href="./products.html"></a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>				
+			<section class="header_text sub">
+			<img class="pageBanner" src="themes/images/pageBanne.png" alt="" >
+				<h4><span>Confira</span></h4>
+			</section>	
+			<section class="main-content">
+				<div class="row">
+					<div class="span12">
+						<div class="accordion" id="accordion2">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Opções de check-out</a>
+								</div>
+								<div id="collapseOne" class="accordion-body in collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="span6">
+												<h4>Novo cliente</h4>
+												<p>Ao criar uma conta você poderá comprar mais rapidamente, estar atualizado sobre o status de um pedido e acompanhar os pedidos feitos anteriormente.</p>
+												<form action="#" method="post">
+													<fieldset>
+														<label class="radio" for="register">
+															<input type="radio" name="account" value="register" id="register" checked="checked">Registrar conta
+														</label>
+														<label class="radio" for="guest">
+															<input type="radio" name="account" value="guest" id="guest">Check-out de convidado
+														</label>
+														<br>
+														<button class="btn btn-inverse" data-toggle="collapse" data-parent="#collapse2">Continue</button>
+													</fieldset>
+												</form>
+											 </div>
+											 <div class="span6">
+												<h4>Cliente recorrente</h4>
+												<p>Eu sou um cliente recorrente</p>
+												<form action="#" method="post">
+													<fieldset>
+														<div class="control-group">
+															<label class="control-label">Nome de usuário</label>
+															<div class="controls">
+																<input type="text" placeholder="Digite seu nome de usuário" id="username" class="input-xlarge">
+															</div>
+														</div>
+														<div class="control-group">
+															<label class="control-label">Senha</label>
+															<div class="controls">
+															<input type="password" placeholder="Digite sua senha" id="password" class="input-xlarge">
+															</div>
+														</div>
+														<button class="btn btn-inverse">Continue</button>
+													</fieldset>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Conta &amp; Detalhes de cobrança</a>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="span6">
+												<h4>Seus dados pessoais</h4>
+												<div class="control-group">
+													<label class="control-label">Primeiro nome</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Sobrenome</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>					  
+												<div class="control-group">
+													<label class="control-label">Endereço de email</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Telefone</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Fax</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+											</div>
+											<div class="span6">
+												<h4>Seu endereço</h4>
+												<div class="control-group">
+													<label class="control-label">Company</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Company ID:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>					  
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Endereço 1:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Endereço 2:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Cidade:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Código postal:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> País:</label>
+													<div class="controls">
+														<select class="input-xlarge">
+															<option value="1">Afghanistan</option>
+															<option value="2">Albania</option>
+															<option value="3">Algeria</option>
+															<option value="4">American Samoa</option>
+															<option value="5">Andorra</option>
+															<option value="6">Angola</option>
+															<option value="t">Brasil</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Região / Estado:</label>
+													<div class="controls">
+														<select name="zone_id" class="input-xlarge">
+															<option value=""> --- Please Select --- </option>
+															<option value="3513">Aberdeen</option>
+															<option value="3514">Aberdeenshire</option>
+															<option value="3515">Anglesey</option>
+															<option value="3516">Angus</option>
+															<option value="3517">Argyll and Bute</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Confirmar Pedido</a>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="control-group">
+												<label for="textarea" class="control-label">Comentários</label>
+												<div class="controls">
+													<textarea rows="3" id="textarea" class="span12"></textarea>
+												</div>
+											</div>									
+											<button class="btn btn-inverse pull-right">Confirmar Pedido</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</section>			
+			<section id="footer-bar">
+				<div class="row">
+					<div class="span3">
+						<h4>Navegação</h4>
+						<ul class="nav">
+							<li><a href="./index.html">Homepage</a></li>  
+							<li><a href="./contact.html">Fale Conosco</a></li>
+							<li><a href="./cart.html">Seu Carinho</a></li>
+							<li><a href="./register.html">Login</a></li>							
+						</ul>					
+					</div>
+					<div class="span4">
+						<h4>Minha Conta</h4>
+						<ul class="nav">
+							<li><a href="./register.html">Minha Conta</a></li>
+							<li><a href="./checkout.html">Historico de Pedidos</a></li>
+							<li><a href="./products.html">Minha Lista</a></li>
+						</ul>
+					</div>
+					<div class="span5">
+						<p class="logo"><img src="themes/images/nelcimar_logo.jpg" class="site_logo" alt=""></p>
+						<p></p>
+						<br/>
+						<span class="social_icons">
+							<a class="facebook" href="#">Facebook</a>
+							<a class="twitter" href="#">Twitter</a>
+							<a class="skype" href="#">Skype</a>
+							<a class="vimeo" href="#">Vimeo</a>
+						</span>
+					</div>					
+				</div>	
+			</section>
+			<section id="copyright">
+				<span>Copyright 2024 All right reserved nscustom.</span>
+			</section>
+		</div>
+		<script src="themes/js/common.js"></script>
+    </body>
+</html>
