@@ -21,10 +21,10 @@ ul li a,a{
     transition: all 0.2s linear;
 }
 a{
-	color:#eb4800;
+	color:#204b1e;
 }
 a:hover{
-	color:#fd4004;
+	color:#204b1e;
 	text-decoration:none;
 }
 .img-al{
@@ -93,7 +93,7 @@ section.header_text{
 	border-bottom:1px solid #fff;
 }
 section.homepage-slider{
-	border-bottom:1px dotted #eb4800;
+	border-bottom:1px dotted #204b1e;
 	padding-bottom:1px;
 	position: relative;
 	top:0;
@@ -109,7 +109,7 @@ section.homepage-slider div.intro{
 	opacity:.7;
 }
 section.homepage-slider h1{
-	background-color:#eb4800;
+	background-color:#204b1e;
 	color:#fff;
 	padding:2px 7px;
 	font-size:30px;
@@ -276,7 +276,7 @@ section.navbar{
 	border-right: 0;
 	border-left: 0;
 	border-top: 0;
-	border-bottom:5px solid #eb4800;
+	border-bottom:5px solid #204b1e;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;	
 	border-radius: 0;
@@ -311,16 +311,16 @@ section.navbar{
 	padding: 10px 14px;
 	}
 #menu > ul > li.active{
-	background-color:#eb4800;
+	background-color:#204b1e;
 }
 #menu > ul > li.active > a{
 	color:#fff;
 }
 #menu > ul a:hover{
-	color: #eb4800; 
+	color: #204b1e; 
 	text-decoration:none;
 }
-#menu .current{color: #eb4800 !important;}
+#menu .current{color: #204b1e !important;}
 
 #menu ul ul {
     background: none repeat scroll 0 0 #eee;
@@ -352,8 +352,8 @@ section.navbar{
     color: #333;
     font-size: 12px;
 }
-#menu ul ul a:hover,#menu > ul > li:hover > a{color: #fff;background-color:#eb4800}
-#menu ul ul a:hover{background-color:#eb4800;}
+#menu ul ul a:hover,#menu > ul > li:hover > a{color: #fff;background-color:#204b1e}
+#menu ul ul a:hover{background-color:#204b1e;}
 #menu > ul > li:hover {visibility: inherit;}
 #menu li:hover {visibility: inherit;}
 #menu li:hover ul,
@@ -368,7 +368,7 @@ section.navbar{
     top: 0px;
 }
 #menu li.sfHover > a{
-	color:#eb4800;
+	color:#204b1e;
 }
 #menu .sf-sub-indicator{
 	display:none;
@@ -384,7 +384,7 @@ section.navbar{
 }
 .feature_box img{	
 	margin-bottom:10px;
-	background-color:#eb4800;
+	background-color:#204b1e;
 	padding:25px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;	
@@ -431,7 +431,7 @@ section.navbar{
 	left:0;
 }
 .product-box:hover{
-	background-color:#eb4800;
+	background-color:#204b1e;
 	-webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -454,7 +454,7 @@ section.navbar{
 	margin:15px 0 0px 0;
 }
 .product-box a.category{
-	color:#eb4800;
+	color:#204b1e;
 }
 .product-box p.price{
 	font-size:20px;
@@ -481,7 +481,7 @@ h4.title.m{
 	width:100%;
 }
 h4.title strong{
-	color:#eb4800;
+	color:#204b1e;
 }
 h4.title span.text{
 	background-color:#fff;
@@ -505,7 +505,7 @@ h4.title .left,h4.title .right{
 	cursor: pointer;
 }
 h4.title .left:hover,h4.title .right:hover{
-	background-color:#eb4800;
+	background-color:#204b1e;
 }
 h4.title .button:hover{
 	text-decoration: none;
@@ -629,7 +629,7 @@ section.our_client .row{
 	text-align: center;
 	padding: 7px;
 	border: 1px solid #ddd;
-	border-top: 3px solid #eb4800;
+	border-top: 3px solid #204b1e;
 	-moz-box-shadow: 0 0 3px 0 #ccc;
 	-webkit-box-shadow: 0 0 3px 0 #ccc;
 	box-shadow: 0 0 3px 0 #ccc;
@@ -673,7 +673,7 @@ section.our_client .row{
 }
 .nav-list > .active > a, .nav-list > .active > a:hover{
 	background-color: transparent;
-	color:#eb4800;
+	color:#204b1e;
 	text-shadow: none;	
 	font-weight: bold;
 }
@@ -683,7 +683,7 @@ section.our_client .row{
 ._toggleMenu{
 	margin:0 -10px;
 	display:none;
-	background:#eb4800;	
+	background:#204b1e;	
 }
 ._toggleMenu a{
 	color:#fff;
@@ -700,7 +700,7 @@ section.our_client .row{
 }
 ._toggleMenu a:hover{
 	color:#fff;
-	background-color:#df403d !important;
+	background-color:#204b1e !important;
 }
 ._toggleMenu .nav {
 	margin:0;
@@ -753,7 +753,7 @@ section.our_client .row{
 		padding-bottom:10px;		
 	}
 	.product-box:hover{
-		background-color:#f8f8f8;
+		background-color:#204b1e;
 	}
 	.product-box:hover a{
 		color:#333 !important;
@@ -770,7 +770,7 @@ section.our_client .row{
 	#footer-bar .nav li{float:left;}
 	#footer-bar  .nav a:hover{
 		background-color:transparent;
-		color:#eb4800;
+		color:#204b1e;
 	}
 	.feature_box .service{	
 		border-bottom:1px solid #eee;
