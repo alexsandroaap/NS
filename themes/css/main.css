@@ -178,7 +178,7 @@ section#copyright{
 section#footer-bar{
 	margin-top:20px;
 	padding-top:10px;
-	background-color:#242424;
+	background-color:#073707;
 	border-top:1px solid #ddd;
 	color:#777;
 }
@@ -257,7 +257,7 @@ section#footer-bar .social_icons a.vimeo:hover {
 	background-position: -115px -29px;
 }
 section#copyright{
-	background-color:#111111;
+	background-color:#073707;
 	color:#fff;
 	font-size:10px;
 	text-transform:uppercase;	
