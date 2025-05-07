@@ -1,324 +1,276 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+		<meta charset="utf-8">
+		<title>NS CUSTOM GUITARS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+		<!-- bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+		
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+		
+		<!-- global styles -->
+		<link href="themes/css/flexslider.css" rel="stylesheet"/>
+		<link href="themes/css/main.css" rel="stylesheet"/>
 
-<html lang="pt-br">
+		<!-- scripts -->
+		<script src="themes/js/jquery-1.7.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>				
+		<script src="themes/js/superfish.js"></script>	
+		<script src="themes/js/jquery.scrolltotop.js"></script>
+		<!--[if lt IE 9]>			
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+		<!-- Start Genie WP Favicon -->
+<link rel="shortcut icon" href="themes/images/faviconns_logo.png">
+<link rel="apple-touch-icon" href="themes/images/faviconns_logo.png">
+<!-- End Genie WP Favicon -->
+		<title>icones footer</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link href="css/style.css" rel="stylesheet">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"crossorigin="anonymous">
+	</head>
+	
+    <body>		
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+					
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="cart.html">Seu Carrinho</a></li>
+							<li><a href="register.html">Login</a></li>
+							<li><a href="./product_detail.html">Detalhes do Produto</a></li>
+							<li><a href="checkout.html">Sair</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">				
+					<a href="index.html" class="logo pull-left"><img src="themes/images/channels_profile.png" class="site_logo" alt=""></a>
+					<nav id="menu" class="pull-right">
+						<ul>
+							<!--<li><a href="">Guitarra</a>					
+								<ul>
+									<li><a href="./strato.html">Stratocaster</a></li>									
+									<li><a href="./telecaster.html">Telecaster</a></li>
+									<li><a href="./modelosdiversos.html">Modelos Diversos</a></li>								
+								</ul>
+							</li>															
+							<li><a href="">Contrabaixo</a>
+								<ul>
+									<li><a href="./4cordas.html">4 Cordas</a></li>									
+									<li><a href="./5cordas.html">5 Cordas</a></li>
+								</ul>
+							</li>		-->
+							<li><a href="">Vídeo de nossos Produtos</a>
+								<ul>	
+									<li><a href="https://www.youtube.com/shorts/c0Aolu69-f0">Guitarra ELFO</a></li>
+									<li><a href="https://www.youtube.com/shorts/buRdDmoQ7_g">Guitarra NS335 Semi-Acústica</a></li>
+									<li><a href="https://www.youtube.com/watch?v=kE_vn5GemPY">Guitarra Telecaster</a></li>
+									<li><a href="https://www.youtube.com/watch?v=c9X0kCcMkJw">Guitarra Stratocaster Vintage Blues</a></li>
+									<li><a href="https://www.youtube.com/shorts/y4spIy9xhH8">Guitarra Telecaster Verde</a></li>
+									<li><a href="https://www.youtube.com/shorts/j-9wcqCdm14">Contrabaixo Precision Bass 51</a></li>
+									<li><a href="https://www.youtube.com/shorts/kebwePQBSmw">Guitarra Les Paul</a></li>
+									<li><a href="https://www.youtube.com/shorts/14MsL8kas8Y">Guitarra Telecaster CUSTOM ELFO</a></li>
+									<li><a href="https://www.youtube.com/watch?v=Ji0C6zFchq0">Guitarra ELFO</a></li>
+							</ul>
+							</li>							
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section  class="homepage-slider" id="home-slider">
+				<div class="flexslider">		
+					<img src="themes/images/nelcimar_logo.jpg" class="site_logo" width="100" height="-90">
+			</section>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Painel de Pagamento</title>
+  <title>Pagamento - PIX ou Cartão</title>
   <style>
-    /* Estilização do corpo para centralizar o conteúdo */
-    * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f5f5f5;
+    }
 
-html, body {
-  height: 100%;
-  width: 100%;
-}
+    h1 {
+      color: #333;
+    }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-  background: #eeeeee;
-}
+    select, input, button {
+      padding: 10px;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
 
-  .checkout-panel {
-    display: flex;
-    flex-direction: column;
-    width: 940px;
-    height: 766px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
-  }
-  .panel-body {
-    padding: 45px 80px 0;
-    flex: 1;
-  }
-   
-  .title {
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 40px;
-    color: #2e2e2e;
-  }
-  .progress-bar {
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: space-between;
-  }
-   
-  .step {
-    box-sizing: border-box;
-    position: relative;
-    z-index: 1;
-    display: block;
-    width: 25px;
-    height: 25px;
-    margin-bottom: 30px;
-    border: 4px solid #fff;
-    border-radius: 50%;
-    background-color: #efefef;
-  }
-   
-  .step:after {
-    position: absolute;
-    z-index: -1;
-    top: 5px;
-    left: 22px;
-    width: 225px;
-    height: 6px;
-    content: '';
-    background-color: #efefef;
-  }
-   
-  .step:before {
-    color: #2e2e2e;
-    position: absolute;
-    top: 40px;
-  }
-   
-  .step:last-child:after {
-    content: none;
-  }
-   
-  .step.active {
-    background-color: #073707;
-  }
-  .step.active:after {
-    background-color: #073707;
-  }
-  .step.active:before {
-    color: #073707;
-  }
-  .step.active + .step {
-    background-color: #073707;
-  }
-  .step.active + .step:before {
-    color: #073707;
-  }
-   
-  .step:nth-child(1):before {
-    content: 'Carrinho';
-  }
-  .step:nth-child(2):before {
-    right: -40px;
-    content: 'Confirmação';
-  }
-  .step:nth-child(3):before {
-    right: -30px;
-    content: 'Pagamento';
-  }
-  .step:nth-child(4):before {
-    right: 0;
-    content: 'Confirmado';
-  }
-  .payment-method {
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: space-between;
-  }
-   
-  .method {
-    display: flex;
-    flex-direction: column;
-    width: 382px;
-    height: 122px;
-    padding-top: 20px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    background-color: rgb(249, 249, 249);
-    justify-content: center;
-    align-items: center;
-  }
-   
-  .card-logos {
-    display: flex;
-    width: 150px;
-    justify-content: space-between;
-    align-items: center;
-  }
-   
-  .radio-input {
-    margin-top: 20px;
-  }
-   
-  input[type='radio'] {
-    display: inline-block;
-  }
-  .input-fields {
-    display: flex;
-    justify-content: space-between;
-  }
-   
-  .input-fields label {
-    display: block;
-    margin-bottom: 10px;
-    color: #b4b4b4;
-  }
-   
-  .info {
-    font-size: 12px;
-    font-weight: 300;
-    display: block;
-    margin-top: 50px;
-    opacity: .5;
-    color: #2e2e2e;
-  }
-   
-  div[class*='column'] {
-    width: 382px;
-  }
-   
-  input[type='text'],
-  input[type='password'] {
-    font-size: 16px;
-    width: 100%;
-    height: 50px;
-    padding-right: 40px;
-    padding-left: 16px;
-    color: rgba(46, 46, 46, .8);
-    border: 1px solid rgb(225, 225, 225);
-    border-radius: 4px;
-    outline: none;
-  }
-   
-  input[type='text']:focus,
-  input[type='password']:focus {
-    border-color: rgb(119, 219, 119);
-  }
-   
-  #date { background: url(img/icons_calendar_black.png) no-repeat 95%; }
-  #cardholder { background: url(img/icons_person_black.png) no-repeat 95%; }
-  #cardnumber { background: url(img/icons_card_black.png) no-repeat 95%; }
-  #verification { background: url(img/icons_lock_black.png) no-repeat 95%; }
-   
-  .small-inputs {
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-  }
-   
-  .small-inputs div {
-    width: 182px;
-  }
-  .panel-footer {
-    display: flex;
-    width: 100%;
-    height: 96px;
-    padding: 0 80px;
-    background-color: rgb(239, 239, 239);
-    justify-content: space-between;
-    align-items: center;
-  }
-  .btn {
-    font-size: 16px;
-    width: 163px;
-    height: 48px;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-    letter-spacing: 1px;
-    border: none;
-    border-radius: 23px;
-  }
-   
-  .back-btn {
-    color: #073707;
-    background: #fff;
-  }
-   
-  .next-btn {
-    color: #fff;
-    background: #073707;
-  }
-   
-  .btn:focus {
-    outline: none;
-  }
-   
-  .btn:hover {
-    transform: scale(1.1);
-  }
-  .blue-border {
-    border: 1px solid rgb(110, 178, 251);
-  }
-  .warning {
-    border-color: #073707;
-  }
+    .form-section {
+      display: none;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .active {
+      display: block;
+    }
+
+    label {
+      margin-top: 15px;
+      display: block;
+    }
+
+    img {
+      margin-top: 10px;
+      max-width: 200px;
+    }
   </style>
 </head>
 <body>
 
-  <div class="checkout-panel">
-    <div class="panel-body">
-      <h2 class="title">Métodos de Pagamento!</h2>
+  <h1>Escolha a forma de pagamento</h1>
 
-      <div class="progress-bar">
-        <div class="step active"></div>
-        <div class="step active"></div>
-        <div class="step"></div>
-        <div class="step"></div>
-      </div>
+  <select id="payment-method" onchange="togglePaymentMethod()">
+    <option value="">Selecione...</option>
+    <option value="pix">PIX</option>
+    <option value="cartao">Cartão de Crédito</option>
+  </select>
 
-      <div class="payment-method">
-        <label for="card" class="method card">
-          <div class="card-logos">
-            <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png" alt="Visa"/>
-            <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png" alt="Mastercard"/>
-          </div>
-          <div class="radio-input">
-            <input id="card" type="radio" name="payment">
-            Pagar R$20,99 com cartão de crédito
-          </div>
-        </label>
-
-        <label for="paypal" class="method paypal">
-          <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png" alt="PayPal"/>
-          <div class="radio-input">
-            <input id="paypal" type="radio" name="payment">
-            Pagar R$20,99 com PayPal
-          </div>
-        </label>
-      </div>
-
-      <div class="input-fields">
-        <div class="column-1">
-          <label for="cardholder">Nome</label>
-          <input type="text" id="cardholder" />
-
-          <div class="small-inputs">
-            <div>
-              <label for="date">Data de Validade</label>
-              <input type="text" id="date"/>
-            </div>
-            <div>
-              <label for="verification">CVV / CVC *</label>
-              <input type="password" id="verification"/>
-            </div>
-          </div>
-        </div>
-
-        <div class="column-2">
-          <label for="cardnumber">Número do Cartão</label>
-          <input type="password" id="cardnumber"/>
-          <span class="info"></span>
-        </div>
-      </div>
-    </div>
-
-    <div class="panel-footer">
-      <a href="./product_detail.html">
-        <button class="btn btn-inverse">Voltar</button>
-      </a>
-      <a href="#">
-        <button class="btn">Próximo</button>
-      </a>
-    </div>
+  <!-- Seção PIX -->
+  <div id="pix" class="form-section">
+    <h2>Pagamento via PIX</h2>
+    <p>Escaneie o QR Code abaixo ou copie a chave PIX:</p>
+    <img src="https://via.placeholder.com/200x200.png?text=QR+Code+PIX" alt="QR Code PIX">
+    <p><strong>Chave PIX:</strong> pix@exemplo.com</p>
+    <button onclick="alert('Pagamento PIX processado!')">Confirmar Pagamento</button>
   </div>
 
+  <!-- Seção Cartão -->
+  <div id="cartao" class="form-section">
+    <h2>Pagamento com Cartão de Crédito</h2>
+    <form onsubmit="event.preventDefault(); processarCartao();">
+      <label for="nome">Nome no Cartão:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="numero">Número do Cartão:</label>
+      <input type="text" id="numero" name="numero" maxlength="16" required>
+
+      <label for="validade">Validade (MM/AA):</label>
+      <input type="text" id="validade" name="validade" placeholder="MM/AA" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" maxlength="4" required>
+
+      <button type="submit">Pagar com Cartão</button>
+    </form>
+  </div>
+
+  <script>
+    function togglePaymentMethod() {
+      const method = document.getElementById('payment-method').value;
+      const pixSection = document.getElementById('pix');
+      const cartaoSection = document.getElementById('cartao');
+
+      pixSection.classList.remove('active');
+      cartaoSection.classList.remove('active');
+
+      if (method === 'pix') {
+        pixSection.classList.add('active');
+      } else if (method === 'cartao') {
+        cartaoSection.classList.add('active');
+      }
+    }
+
+    function processarCartao() {
+      const nome = document.getElementById('nome').value;
+      const numero = document.getElementById('numero').value;
+      const validade = document.getElementById('validade').value;
+      const cvv = document.getElementById('cvv').value;
+
+      // Simulação de processamento
+      alert(`Pagamento com cartão realizado!\nNome: ${nome}\nFinal: ${numero.slice(-4)}`);
+    }
+  </script>
+
 </body>
+<section id="footer-bar">
+  <div class="row">
+    <div class="span3">
+      <h4>Navegação</h4>
+      <ul class="nav">
+        <li><a href="./index.html">Homepage</a></li>  
+        <li><a href="./contact.html">Fale Conosco</a></li>
+        <li><a href="./cart.html">Seu Carinho</a></li>
+        <li><a href="./register.html">Login</a></li>							
+      </ul>					
+    </div>
+    <div class="span4">
+      <h4>Minha Conta</h4>
+      <ul class="nav">
+        <li><a href="./register.html">Minha Conta</a></li>
+        <li><a href="./cart.html">Historico de Pedidos</a></li>
+        <li><a href="./product_detail.html">Detalhes do Produto</a></li>
+        <li><a href="./minha_historia.html">Minha História</a></li>
+      </ul>
+    </div>
+    <div class="span5">
+      <p class="logo"><img src="themes/images/nelcimar_logo.png" class="site_logo" alt="">
+      
+    </html>
+            <h4>Minhas Redes sociais</h4>
+        <a href="https://wa.me/556899133097" target="_blank">
+          <img src="themes/images/whatsapp.png" alt="WhatsApp" width="50" height="50">
+        </a>
+        <a href="https://www.instagram.com/nscustomguitars" target="_blank">
+          <img src="themes/images/instagram.png" alt="Instagram" width="50" height="50">
+        </a>
+        <a href="https://youtube.com/@nscustom519?si=TR1ekev7EA296-9y" target="_blank">
+          <img src="themes/images/youtube.png" alt="YouTube" width="50" height="50">
+        </a>
+    
+      </span>
+    </div>					
+  </div>	
+</section>
+<section id="copyright">
+  <span style="display: flex; align-items: center;">
+    Copyright 2025 <img src="themes/images/logo_alex.jpg" alt="Logo da Empresa" width="50" style="margin-right: 10px;">All rights reserved nscustomguitars.
+  </span>
+</section>
+</div>
+<script src="themes/js/common.js"></script>
+<script src="themes/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+$(function() {
+  $(document).ready(function() {
+    $('.flexslider').flexslider({
+      animation: "fade",
+      slideshowSpeed: 4000,
+      animationSpeed: 600,
+      controlNav: false,
+      directionNav: true,
+      controlsContainer: ".flex-container" // the container that holds the flexslider
+    });
+  });
+});
+</script>
+</body>
+</html>
+
 </html>
